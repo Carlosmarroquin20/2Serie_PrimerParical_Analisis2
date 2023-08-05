@@ -1,0 +1,28 @@
+Clase Automovil
+    Atributo iniciado
+    Método iniciar()
+    Método detener()
+
+Clase Bicicleta
+    Atributo iniciado
+    Método iniciar()
+    Método detener()
+
+Función principal gestionar_vehiculos()
+    Crear una lista de vehículos (automóviles y bicicletas)
+    Repetir mientras el usuario no quiera salir:
+        Mostrar menú con opciones (iniciar, detener, ver iniciados, salir)
+        Leer opción
+        Si la opción es iniciar o detener:
+            Mostrar opciones de vehículos (automóvil, bicicleta)
+            Leer vehículo seleccionado
+            Si el vehículo es automóvil o bicicleta:
+                Si se eligió iniciar:
+                    Leer cantidad de vehículos a iniciar
+                    Iniciar esa cantidad de vehículos al mismo tiempo
+                Si se eligió detener:
+                    Detener el vehículo seleccionado
+        Si la opción es ver iniciados:
+            Mostrar la lista de vehículos iniciados
+        Si la opción es salir:
+            Salir del programa
